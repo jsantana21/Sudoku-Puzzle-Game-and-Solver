@@ -87,11 +87,14 @@ def puzzleSolver(gameboard): #Recursion Function
 
     return False #the puzzle can't be solved in this case if a solution isn't found in the for-loop above
 
+# Uncomment the code below if you want to check and compare 
+# your answer to the Sudoku puzzle to the SudokuPuzzlerSolver algorithm
+
 '''
 # Test Case
 print("_________________________UNSOLVED SUDOKU PUZZLE_______________________________")
 print_game_board(gameboard)
 puzzleSolver(gameboard)
-print("_________________________THE SOLUTION_______________________________")
+print("___________________________THE SOLUTION_______________________________________")
 print_game_board(gameboard)
 '''
