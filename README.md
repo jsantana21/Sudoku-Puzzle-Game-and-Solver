@@ -10,10 +10,18 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; What makes the puzzle so challenging is that each nine-square column, nine-square row, and within each of the nine 3x3 sub sqaures, must also contain the numbers 1-9, **without repetition or omission**. Knowing how to use this constraint will help us greatly in developing the proper algorithm.
 
 ### Algorithm & Implementation
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The naive or brute force approach would be 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The naive or brute force approach to solving a Sudoku would be to go through with every single combination of numbers for each sqaure in the grid. Though it will give us the solution to the puzzle, the algorithm is extremely slow as there are 81 squares in the grid each of them having 9 different possibilites. Meaning that the time complexity of this brute force algorithm is expoential as it would go through 9<sup>81</sup> different combination to find the solution. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The most optimal approach to solving this problem would be to use the back tracking algorithm where it does the following while iterating through each square row by row:
+1. Find and pick an empty square in the Sudoku grid / gameboard
+1. Try all single digit combination (numbers 1-9)
+1. Find one number that works and satisifes the game rules
+1. Repeat step 3 
+1. If the solution can't be found, then backtrack \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; What its essentially trying to do is to solve each sqaure at a time and recursively check to see if the solution works until it eventually gets the one solution. So rather than continuing a solution that works, like the naive approach, the backtracking approach only continue the solution that does work and solves the puzzle. If the solution doesn't work, then it backtrack and tries a different number to see if the solution works.
+
 
 ### Results
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; N/A
 
 ### What Could be Improved?
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; One immediate thing that comes to mind that I can improve in this project to generate solvable 9x9 Sudoku puzzles instead of the user having to look up Sudoku puzzles online and manullay edit the 2D array in the files. Trying to code out this feature would be a whole endeavor in itself potentailly making this project a full blown web app where I would have to a database in the backend of 9x9 Sudoku puzzles I would get from online. Maybe someday I will return back to this project to add this feature and more. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; One immediate thing that comes to mind that I can improve in this project to generate solvable 9x9 Sudoku puzzles instead of the user having to look up Sudoku puzzles online and manullay edit the 2D array in the files. Trying to code out this feature would be a whole endeavor in itself potentailly making this project a full blown web app where I would have to a database in the backend of 9x9 Sudoku puzzles I would get from online. Maybe someday I will return back to this project to add this feature and more such as a online multiplayer feature. 
