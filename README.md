@@ -16,12 +16,12 @@
 1. Try all single digit combination (numbers 1-9)
 1. Find one number that works and satisifes the game rules
 1. Repeat step 3 
-1. If the solution can't be found, then backtrack \
+1. If the solution can't be found, then backtrack
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; What its essentially trying to do is to solve each sqaure at a time and recursively check to see if the solution works until it eventually gets the one solution. So rather than continuing a solution that works, like the naive approach, the backtracking approach only continue the solution that does work and solves the puzzle. If the solution doesn't work, then it backtrack and tries a different number to see if the solution works.
 
 ### Results
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In the sudokuPuzzleSolver.py file, the code on how to solve a 9x9 Sudoku puzzle by the use of backtracking is found here. It has a function to find the empty squares in the grid (which is denoted by 0), another function to check that all three rules of Sudoku are being met (each nine-square column, nine-square row, and within each of the nine 3x3 sub sqaures, must also contain the numbers 1-9, **without repetition or omission**), and the recursive puzzle solver function which incorpates the previous two functions to solve the puzzle. It also has a function to print out the board in string form and a test case to make that it solves the puzzle correctly. \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The SudokuGUI.py file incorporates the functions from the first file along with the importing of the pygame module to create the GUI by making the Gameboard Object that has functions to allow the user to click the sqaure into the grid, draw on the grid to insert the number of their choice. It also has a Square Object class with functions that to define the boundaries of the squares so the program what the user can click on. The program also gives the user feedback as whether they chose the right number or not. For more details check the comments in the py files. \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The SudokuGUI.py file incorporates the functions from the first file along with the importing of the pygame module to create the GUI by making the Gameboard Object that has functions to allow the user to click the sqaure into the grid, draw on the grid to insert the number of their choice. It also has a Square Object class with functions that to define the boundaries of the squares so the program what the user can click on. The program also gives the user feedback as whether they chose the right number or not. For more details check the comments in the py files.
 
 
 ### What Could be Improved?
