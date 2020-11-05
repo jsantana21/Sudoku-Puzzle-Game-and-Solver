@@ -1,4 +1,6 @@
-# Sudoku Puzzle Game & Solver
+# Sudoku Puzzle Game & Solver 
+
+### Project Duraiton: October 14, 2020 - November 4, 2020
 
 ### Project Task
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Python program that solves sudoku puzzle by using the back tracking algorithm also as a generated user interface feature where the user can play a Sudoku puzzle as the algorithm indictates to you if you're solving the puzzle correcting or not.
@@ -10,3 +12,8 @@
 ### Algorithm & Implementation
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The naive or brute force approach would be 
 
+### Results
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; N/A
+
+### What Could be Improved?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; One immediate thing that comes to mind that I can improve in this project to generate solvable 9x9 Sudoku puzzles instead of the user having to look up Sudoku puzzles online and manullay edit the 2D array in the files. Trying to code out this feature would be a whole endeavor in itself potentailly making this project a full blown web app where I would have to a database in the backend of 9x9 Sudoku puzzles I would get from online. Maybe someday I will return back to this project to add this feature and more. 
