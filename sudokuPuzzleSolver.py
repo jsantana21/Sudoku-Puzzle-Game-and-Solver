@@ -78,7 +78,7 @@ def puzzleSolver(gameboard): #Recursion Function
         if followsTheRules(gameboard, i, (row, col)): # i = number , (row, col) = position
             gameboard[row][col] = i # The number i satisfies all 3 rules and is inserted in the board
 
-            # It recursively calls itself to see if he inserted number works in the solution
+            # It recursively calls itself to see if the inserted number works in the solution
             if puzzleSolver(gameboard):
                 return True
             
