@@ -16,7 +16,8 @@
 1. Try all single digit combination (numbers 1-9)
 1. Find one number that works and satisifes the game rules
 1. Repeat step 3 
-1. If the solution can't be found, then backtrack
+1. If the solution can't be found, then backtrack \
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; What its essentially trying to do is to solve each sqaure at a time and recursively check to see if the solution works until it eventually gets the one solution. So rather than continuing a solution that works, like the naive approach, the backtracking approach only continue the solution that does work and solves the puzzle. If the solution doesn't work, then it backtrack and tries a different number to see if the solution works.
 
 ### Results
