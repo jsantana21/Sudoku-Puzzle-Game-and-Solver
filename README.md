@@ -25,6 +25,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The SudokuGUI.py file incorporates the functions from the first file along with the importing of the pygame module to create the GUI by making the Gameboard Object that has functions to allow the user to click the sqaure into the grid, draw on the grid to insert the number of their choice. It also has a Square Object class with functions that to define the boundaries of the squares so the program what the user can click on. The program also gives the user feedback as whether they chose the right number or not along with a timer in the corner of the GUI. For more details check the comments in the py files.
 
 | <img src="https://github.com/jsantana21/Sudoku-Puzzle-Game-and-Solver/blob/main/images/Sudoku%20Puzzle%20GUI.png" width="380" height="380" />      | <img src="https://github.com/jsantana21/Sudoku-Puzzle-Game-and-Solver/blob/main/images/Sudoku%20Puzzle%20Terminal%20Messages.png" width="380" height="380" /> |
+|    :----:   |   :----:   |
 
 
 
